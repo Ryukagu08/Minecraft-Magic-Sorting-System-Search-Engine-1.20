@@ -6,4 +6,4 @@
 
 **Feel free to check how the mod works [here](https://github.com/jhuckaby/magic-sorting-system).**
 
--# Site in the description of the repo or you also have it right [here](https://mss-sorter.vercel.app)
+_Site in the description of the repo or you also have it right [here](https://mss-sorter.vercel.app)_
