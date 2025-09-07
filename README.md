@@ -5,3 +5,5 @@
 **Since the original mod was discontinued in 1.16, this updated version works similarly with slight changes in the groups. This site was made by translating the config.json file info.**
 
 **Feel free to check how the mod works [here](https://github.com/jhuckaby/magic-sorting-system).**
+
+-# Site in the description of the repo or you also have it right [here](https://mss-sorter.vercel.app)
