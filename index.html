@@ -281,8 +281,8 @@
             <div class="filter-buttons">
                 <button class="filter-btn active" data-filter="all">All Groups</button>
                 <button class="filter-btn" data-filter="wood">Wood Types</button>
-                <button class="filter-btn" data-filter="stone">Stone Types</button>
-                <button class="filter-btn" data-filter="building">Building</button>
+                <button class="filter-btn" data-filter="stone">blocks</button>
+                <button class="filter-btn" data-filter="building">Ores</button>
                 <button class="filter-btn" data-filter="tools">Tools & Combat</button>
                 <button class="filter-btn" data-filter="natural">Natural</button>
             </div>
@@ -1286,7 +1286,7 @@
                     ]
                 },
                 {
-                    "group_name": "office",
+                    "group_name": "Books",
                     "item_frame": "minecraft:paper",
                     "fallback": "workstations",
                     "items": [
@@ -2020,12 +2020,12 @@
         const groupCategories = {
             wood: ['oak_wood', 'spruce_wood', 'birch_wood', 'jungle_wood', 'acacia_wood', 'dark_oak_wood', 
                    'crimson_wood', 'warped_wood', 'mangrove_wood', 'bamboo_wood', 'cherry_wood', 'pale_oak_wood'],
-            stone: ['dirt', 'gravel', 'sand', 'stone', 'cobblestone', 'bricks', 'stone_variants', 'tuff', 
-                    'sandstone', 'blackstone', 'deepslate'],
-            building: ['wool', 'concrete', 'terracotta', 'glass'],
-            tools: ['redstone', 'tools', 'armor', 'storage', 'workstations', 'office', 'music'],
-            natural: ['plants', 'flowers', 'ink', 'mushrooms', 'ocean', 'coral', 'prismarine', 'ice', 
-                      'nether', 'end', 'ores', 'copper', 'precious', 'coal', 'mobs', 'magic', 'potions', 'food', 'raw']
+            blocks: ['dirt', 'gravel', 'sand', 'stone', 'cobblestone', 'stone_variants', 'tuff', 
+                    'sandstone', 'blackstone', 'deepslate', 'bricks', 'wool', 'concrete', 'terracotta', 'glass', 'prismarine'],
+            ores: ['ores', 'copper', 'precious', 'coal', 'redstone'],
+            tools: ['tools', 'armor', 'magic', 'potions', 'storage', 'workstations', 'Books', 'music'],
+            natural: ['plants', 'flowers', 'ink', 'mushrooms', 'ocean', 'coral', 'ice', 
+                      'nether', 'end', 'mobs', 'food', 'raw']
         };
 
         function getItemIcon(itemFrame) {
